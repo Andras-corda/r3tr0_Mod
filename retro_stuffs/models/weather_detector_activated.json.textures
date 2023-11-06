@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "weather_detector_top_inverted",
+        "3": "weather_detector_side",
+        "4": "weather_detector_bottom"
+      },
+      "name": "default"
+    }
+  }
+}

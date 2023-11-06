@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "retro_stuffs:block/magnetic_piston_bottom",
+    "up": "retro_stuffs:block/magnetic_piston_top",
+    "north": "retro_stuffs:block/magnetic_piston_pull",
+    "east": "retro_stuffs:block/magnetic_piston_pull",
+    "south": "retro_stuffs:block/magnetic_piston_pull",
+    "west": "retro_stuffs:block/magnetic_piston_pull",
+    "particle": "retro_stuffs:block/magnetic_piston_bottom"
+  },
+  "render_type": "solid"
+}

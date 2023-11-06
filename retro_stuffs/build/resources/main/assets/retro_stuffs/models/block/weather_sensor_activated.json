@@ -1,0 +1,11 @@
+{
+  "parent": "retro_stuffs:custom/weather_detector_activated",
+  "textures": {
+    "all": "retro_stuffs:block/weather_detector_bottom",
+    "particle": "retro_stuffs:block/weather_detector_bottom",
+    "1": "retro_stuffs:block/weather_detector_top_inverted",
+    "3": "retro_stuffs:block/weather_detector_side",
+    "4": "retro_stuffs:block/weather_detector_bottom"
+  },
+  "render_type": "solid"
+}

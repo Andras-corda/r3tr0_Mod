@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "retro_stuffs:blue_stone_ore_2",
+  "step": "underground_ores"
+}

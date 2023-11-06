@@ -1,0 +1,22 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.06999999999999999,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:BlueStoneOre2"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:BlueStone"
+    },
+    "name": "blue_stone_ore_smelting_2",
+    "namespace": "mod"
+  }
+}

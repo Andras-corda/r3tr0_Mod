@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "retro_stuffs:block/bluestone_block",
+    "particle": "retro_stuffs:block/bluestone_block"
+  },
+  "render_type": "solid"
+}

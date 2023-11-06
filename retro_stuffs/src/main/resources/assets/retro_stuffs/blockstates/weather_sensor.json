@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "retro_stuffs:block/weather_sensor"
+    }
+  }
+}

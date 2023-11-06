@@ -1,0 +1,942 @@
+{
+  "mod_elements": [
+    {
+      "name": "ObsidianAppleQuandLeJoueurACesseDutiliser",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_apple_quand_le_joueur_a_cesse_dutiliser",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrostuffs/procedures/ObsidianAppleQuandLeJoueurACesseDutiliserProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/obsidian/apple"
+    },
+    {
+      "name": "ObsidianApple",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_apple",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrostuffs/item/ObsidianAppleItem.java",
+          "src/main/resources/assets/retro_stuffs/models/item/obsidian_apple.json"
+        ]
+      },
+      "path": "~/obsidian/apple"
+    },
+    {
+      "name": "ObsidianAppleRecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_apple_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retro_stuffs/recipes/obsidian_apple_recipe.json"
+        ]
+      },
+      "path": "~/obsidian/apple"
+    },
+    {
+      "name": "ObsidianAppleEnchantedQuandLeJoueurACesseDutiliser",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_apple_enchanted_quand_le_joueur_a_cesse_dutiliser",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrostuffs/procedures/ObsidianAppleEnchantedQuandLeJoueurACesseDutiliserProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/obsidian/appleEnchanted"
+    },
+    {
+      "name": "ObsidianAppleEnchanted",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_apple_enchanted",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrostuffs/item/ObsidianAppleEnchantedItem.java",
+          "src/main/resources/assets/retro_stuffs/models/item/obsidian_apple_enchanted.json"
+        ]
+      },
+      "path": "~/obsidian/appleEnchanted"
+    },
+    {
+      "name": "ObsidianAppleEnchantedRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_apple_enchanted_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retro_stuffs/recipes/obsidian_apple_enchanted_recipe.json"
+        ]
+      },
+      "path": "~/obsidian/appleEnchanted"
+    },
+    {
+      "name": "BlueStone",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retro_stuffs/models/item/blue_stone.json",
+          "src/main/java/net/mcreator/retrostuffs/item/BlueStoneItem.java"
+        ]
+      },
+      "path": "~/bluestone"
+    },
+    {
+      "name": "BlueStoneOre",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_stone_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retro_stuffs/forge/biome_modifier/blue_stone_ore_biome_modifier.json",
+          "src/main/resources/data/retro_stuffs/worldgen/placed_feature/blue_stone_ore.json",
+          "src/main/resources/assets/retro_stuffs/models/block/blue_stone_ore.json",
+          "src/main/java/net/mcreator/retrostuffs/world/features/ores/BlueStoneOreFeature.java",
+          "src/main/resources/data/retro_stuffs/worldgen/configured_feature/blue_stone_ore.json",
+          "src/main/java/net/mcreator/retrostuffs/block/BlueStoneOreBlock.java",
+          "src/main/resources/assets/retro_stuffs/blockstates/blue_stone_ore.json",
+          "src/main/resources/assets/retro_stuffs/models/item/blue_stone_ore.json"
+        ]
+      },
+      "path": "~/bluestone"
+    },
+    {
+      "name": "BlueStoneBlock",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_stone_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retro_stuffs/models/block/blue_stone_block.json",
+          "src/main/resources/assets/retro_stuffs/models/item/blue_stone_block.json",
+          "src/main/java/net/mcreator/retrostuffs/block/BlueStoneBlockBlock.java",
+          "src/main/resources/assets/retro_stuffs/blockstates/blue_stone_block.json"
+        ]
+      },
+      "path": "~/bluestone"
+    },
+    {
+      "name": "BlueStoneOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_stone_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retro_stuffs/recipes/blue_stone_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/bluestone"
+    },
+    {
+      "name": "BlueStoneBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_stone_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retro_stuffs/recipes/blue_stone_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/bluestone"
+    },
+    {
+      "name": "BlueStoneOreSmelting",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_stone_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retro_stuffs/recipes/blue_stone_ore_smelting.json"
+        ]
+      },
+      "path": "~/bluestone"
+    },
+    {
+      "name": "BlueStoneOre2",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_stone_ore_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retro_stuffs/blockstates/blue_stone_ore_2.json",
+          "src/main/java/net/mcreator/retrostuffs/block/BlueStoneOre2Block.java",
+          "src/main/java/net/mcreator/retrostuffs/world/features/ores/BlueStoneOre2Feature.java",
+          "src/main/resources/assets/retro_stuffs/models/block/blue_stone_ore_2.json",
+          "src/main/resources/data/retro_stuffs/worldgen/placed_feature/blue_stone_ore_2.json",
+          "src/main/resources/assets/retro_stuffs/models/item/blue_stone_ore_2.json",
+          "src/main/resources/data/retro_stuffs/forge/biome_modifier/blue_stone_ore_2_biome_modifier.json",
+          "src/main/resources/data/retro_stuffs/worldgen/configured_feature/blue_stone_ore_2.json"
+        ]
+      },
+      "path": "~/bluestone"
+    },
+    {
+      "name": "BlueStoneOreSmelting2",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_stone_ore_smelting_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retro_stuffs/recipes/blue_stone_ore_smelting_2.json"
+        ]
+      },
+      "path": "~/bluestone"
+    },
+    {
+      "name": "BlueStonePistonAttractive",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_stone_piston_attractive",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retro_stuffs/models/item/blue_stone_piston_attractive.json",
+          "src/main/resources/assets/retro_stuffs/blockstates/blue_stone_piston_attractive.json",
+          "src/main/resources/assets/retro_stuffs/models/block/blue_stone_piston_attractive.json",
+          "src/main/java/net/mcreator/retrostuffs/block/BlueStonePistonAttractiveBlock.java"
+        ]
+      },
+      "path": "~/bluestone"
+    },
+    {
+      "name": "BlueStonePistonAttractiveRedstoneOn",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_stone_piston_attractive_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrostuffs/procedures/BlueStonePistonAttractiveRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/bluestone"
+    },
+    {
+      "name": "WeatherSensor",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weather_sensor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retro_stuffs/models/item/weather_sensor.json",
+          "src/main/resources/assets/retro_stuffs/models/block/weather_sensor.json",
+          "src/main/java/net/mcreator/retrostuffs/block/WeatherSensorBlock.java",
+          "src/main/resources/assets/retro_stuffs/blockstates/weather_sensor.json"
+        ]
+      },
+      "path": "~/weather sensor"
+    },
+    {
+      "name": "WeatherSensorActivated",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weather_sensor_activated",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retro_stuffs/models/item/weather_sensor_activated.json",
+          "src/main/resources/assets/retro_stuffs/blockstates/weather_sensor_activated.json",
+          "src/main/resources/assets/retro_stuffs/models/block/weather_sensor_activated.json",
+          "src/main/java/net/mcreator/retrostuffs/block/WeatherSensorActivatedBlock.java"
+        ]
+      },
+      "path": "~/weather sensor"
+    },
+    {
+      "name": "WeatherSensorActivatedUpdateTick",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weather_sensor_activated_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrostuffs/procedures/WeatherSensorActivatedUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/weather sensor"
+    },
+    {
+      "name": "BlueStoneCreativeTab",
+      "type": "tab",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_stone_creative_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "RedstonePowerOne",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_power_one",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrostuffs/procedures/RedstonePowerOneProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/bluestone/redstonePowerProcedure"
+    },
+    {
+      "name": "RedstonePowerTwo",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_power_two",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrostuffs/procedures/RedstonePowerTwoProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/bluestone/redstonePowerProcedure"
+    },
+    {
+      "name": "RedstonePowerThree",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_power_three",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrostuffs/procedures/RedstonePowerThreeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/bluestone/redstonePowerProcedure"
+    },
+    {
+      "name": "RedstonePowerFour",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_power_four",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrostuffs/procedures/RedstonePowerFourProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/bluestone/redstonePowerProcedure"
+    },
+    {
+      "name": "RedstonePowerFive",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_power_five",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrostuffs/procedures/RedstonePowerFiveProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/bluestone/redstonePowerProcedure"
+    },
+    {
+      "name": "RedstonePowerSix",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_power_six",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrostuffs/procedures/RedstonePowerSixProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/bluestone/redstonePowerProcedure"
+    },
+    {
+      "name": "RedstonePowerSeven",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_power_seven",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrostuffs/procedures/RedstonePowerSevenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/bluestone/redstonePowerProcedure"
+    },
+    {
+      "name": "RedstonePowerEight",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_power_eight",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrostuffs/procedures/RedstonePowerEightProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/bluestone/redstonePowerProcedure"
+    },
+    {
+      "name": "RedstonePowerNine",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_power_nine",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrostuffs/procedures/RedstonePowerNineProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/bluestone/redstonePowerProcedure"
+    },
+    {
+      "name": "RedstonePowerTen",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_power_ten",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrostuffs/procedures/RedstonePowerTenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/bluestone/redstonePowerProcedure"
+    },
+    {
+      "name": "RedstonePowerEleven",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_power_eleven",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrostuffs/procedures/RedstonePowerElevenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/bluestone/redstonePowerProcedure"
+    },
+    {
+      "name": "RedstonePowerTwelve",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_power_twelve",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrostuffs/procedures/RedstonePowerTwelveProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/bluestone/redstonePowerProcedure"
+    },
+    {
+      "name": "RedstonePowerThirteen",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_power_thirteen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrostuffs/procedures/RedstonePowerThirteenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/bluestone/redstonePowerProcedure"
+    },
+    {
+      "name": "RedstonePowerFourteen",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_power_fourteen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrostuffs/procedures/RedstonePowerFourteenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/bluestone/redstonePowerProcedure"
+    },
+    {
+      "name": "RedstonePowerFifteen",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_power_fifteen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrostuffs/procedures/RedstonePowerFifteenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/bluestone/redstonePowerProcedure"
+    },
+    {
+      "name": "Link",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "link",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrostuffs/procedures/LinkProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/bluestone"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "bluePiston",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.retro_stuffs.obsidian_apple": "Obsidian Apple",
+      "block.retro_stuffs.blue_stone_ore_2": "BlueStone Ore",
+      "item.retro_stuffs.blue_stone": "Bluestone dust",
+      "block.retro_stuffs.blue_stone_block": "Block of Bluestone",
+      "block.retro_stuffs.weather_sensor_activated": "Weather Sensor",
+      "block.retro_stuffs.blue_stone_ore": "Bluestone Ore",
+      "block.retro_stuffs.weather_sensor": "Weather Sensor",
+      "item.retro_stuffs.obsidian_apple_enchanted": "Obsidian Apple of R3tr0",
+      "block.retro_stuffs.blue_stone_piston_attractive": "Bluestone Piston Attractive",
+      "item_group.retro_stuffs.blue_stone_creative_tab": "Bluestone"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "obsidian",
+        "children": [
+          {
+            "name": "apple",
+            "children": []
+          },
+          {
+            "name": "appleEnchanted",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "bluestone",
+        "children": [
+          {
+            "name": "redstonePowerProcedure",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "weather sensor",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "retro_stuffs",
+    "modName": "retro_stuff\u0027s",
+    "version": "1.0.0",
+    "author": "Andra, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.retrostuffs",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}
