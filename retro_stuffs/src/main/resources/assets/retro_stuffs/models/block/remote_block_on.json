@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "retro_stuffs:block/magnetic_piston_bottom",
+    "up": "retro_stuffs:block/greendetector_on",
+    "north": "retro_stuffs:block/magnetic_piston_bottom",
+    "east": "retro_stuffs:block/magnetic_piston_bottom",
+    "south": "retro_stuffs:block/magnetic_piston_bottom",
+    "west": "retro_stuffs:block/magnetic_piston_bottom",
+    "particle": "retro_stuffs:block/magnetic_piston_bottom"
+  },
+  "render_type": "solid"
+}

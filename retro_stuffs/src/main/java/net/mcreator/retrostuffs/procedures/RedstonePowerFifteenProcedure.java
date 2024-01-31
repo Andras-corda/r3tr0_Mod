@@ -5,7 +5,9 @@ import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.nbt.CompoundTag;
+import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
@@ -150,6 +152,16 @@ public class RedstonePowerFifteenProcedure {
 					}
 				}
 				world.setBlock(BlockPos.containing(x, y, z - 15), RetroStuffsModBlocks.BLUE_STONE_BLOCK.get().defaultBlockState(), 3);
+				if (world instanceof ServerLevel _level)
+					_level.sendParticles(ParticleTypes.SOUL_FIRE_FLAME, x, y, (z - 14), 5, 3, 3, 3, 1);
+				if (world instanceof ServerLevel _level)
+					_level.sendParticles(ParticleTypes.CAMPFIRE_COSY_SMOKE, x, y, (z - 13), 5, 3, 3, 3, 1);
+				if (world instanceof ServerLevel _level)
+					_level.sendParticles(ParticleTypes.COMPOSTER, x, y, (z - 12), 5, 3, 3, 3, 1);
+				if (world instanceof ServerLevel _level)
+					_level.sendParticles(ParticleTypes.ENCHANTED_HIT, x, y, (z - 11), 5, 3, 3, 3, 1);
+				if (world instanceof ServerLevel _level)
+					_level.sendParticles(ParticleTypes.ENCHANTED_HIT, x, y, (z - 10), 5, 3, 3, 3, 1);
 			}
 		} else if ((new Object() {
 			public Direction getDirection(BlockPos pos) {

@@ -28,6 +28,9 @@ public class RetroStuffsModTabs {
 				tabData.accept(RetroStuffsModItems.BLUE_STONE.get());
 				tabData.accept(RetroStuffsModBlocks.BLUE_STONE_BLOCK.get().asItem());
 				tabData.accept(RetroStuffsModBlocks.BLUE_STONE_PISTON_ATTRACTIVE.get().asItem());
+				tabData.accept(RetroStuffsModBlocks.REMOTE_BLOCK_OFF.get().asItem());
+				tabData.accept(RetroStuffsModBlocks.SIGNAL_BLOCK.get().asItem());
+				tabData.accept(RetroStuffsModItems.REMOTE_TOOL.get());
 			})
 
 					.build());

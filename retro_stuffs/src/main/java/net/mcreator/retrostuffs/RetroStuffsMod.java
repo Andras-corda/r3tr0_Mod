@@ -33,6 +33,7 @@ import net.mcreator.retrostuffs.init.RetroStuffsModTabs;
 import net.mcreator.retrostuffs.init.RetroStuffsModItems;
 import net.mcreator.retrostuffs.init.RetroStuffsModFeatures;
 import net.mcreator.retrostuffs.init.RetroStuffsModBlocks;
+import net.mcreator.retrostuffs.init.RetroStuffsModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -53,7 +54,7 @@ public class RetroStuffsMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		RetroStuffsModBlocks.REGISTRY.register(bus);
-
+		RetroStuffsModBlockEntities.REGISTRY.register(bus);
 		RetroStuffsModItems.REGISTRY.register(bus);
 
 		RetroStuffsModTabs.REGISTRY.register(bus);

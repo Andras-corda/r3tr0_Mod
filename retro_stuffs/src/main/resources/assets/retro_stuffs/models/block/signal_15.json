@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "retro_stuffs:block/greendetector_on",
+    "up": "retro_stuffs:block/greendetector_on",
+    "north": "retro_stuffs:block/greendetector_on",
+    "east": "retro_stuffs:block/greendetector_on",
+    "south": "retro_stuffs:block/greendetector_on",
+    "west": "retro_stuffs:block/greendetector_on",
+    "particle": "retro_stuffs:block/greendetector_on"
+  },
+  "render_type": "solid"
+}

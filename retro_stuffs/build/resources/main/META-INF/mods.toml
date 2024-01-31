@@ -1,6 +1,6 @@
 modLoader="javafml"
 loaderVersion="[47,)"
-license="Academic Free License v3.0"
+license="Creative Commons Attribution-NonCommercial 3.0"
 
 [[mods]]
 modId="retro_stuffs"
@@ -8,7 +8,7 @@ version="1.0.0"
 displayName="retro_stuff's"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
-authors="Andra, MCreator"
+authors="r3tr0___, MCreator"
 
 [[dependencies.retro_stuffs]]
     modId="minecraft"
