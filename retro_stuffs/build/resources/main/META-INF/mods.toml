@@ -6,9 +6,12 @@ license="Creative Commons Attribution-NonCommercial 3.0"
 modId="retro_stuffs"
 version="1.0.0"
 displayName="retro_stuff's"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
 authors="r3tr0___, MCreator"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
 
 [[dependencies.retro_stuffs]]
     modId="minecraft"
@@ -16,7 +19,6 @@ authors="r3tr0___, MCreator"
     versionRange="[1.20.1]"
     ordering="NONE"
     side="BOTH"
-
 
 
 

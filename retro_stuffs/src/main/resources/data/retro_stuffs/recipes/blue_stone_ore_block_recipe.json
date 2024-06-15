@@ -2,36 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "aaa",
+    "aaa",
+    "aaa"
   ],
   "key": {
-    "0": {
-      "item": "retro_stuffs:blue_stone"
-    },
-    "1": {
-      "item": "retro_stuffs:blue_stone"
-    },
-    "2": {
-      "item": "retro_stuffs:blue_stone"
-    },
-    "3": {
-      "item": "retro_stuffs:blue_stone"
-    },
-    "4": {
-      "item": "retro_stuffs:blue_stone"
-    },
-    "5": {
-      "item": "retro_stuffs:blue_stone"
-    },
-    "6": {
-      "item": "retro_stuffs:blue_stone"
-    },
-    "7": {
-      "item": "retro_stuffs:blue_stone"
-    },
-    "8": {
+    "a": {
       "item": "retro_stuffs:blue_stone"
     }
   },

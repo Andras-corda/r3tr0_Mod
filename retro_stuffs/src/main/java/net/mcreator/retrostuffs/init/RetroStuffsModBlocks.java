@@ -31,6 +31,7 @@ import net.mcreator.retrostuffs.block.Signal10Block;
 import net.mcreator.retrostuffs.block.Signal0Block;
 import net.mcreator.retrostuffs.block.RemoteBlockOnBlock;
 import net.mcreator.retrostuffs.block.RemoteBlockOffBlock;
+import net.mcreator.retrostuffs.block.PlushBlock;
 import net.mcreator.retrostuffs.block.BlueStonePistonAttractiveBlock;
 import net.mcreator.retrostuffs.block.BlueStoneOreBlock;
 import net.mcreator.retrostuffs.block.BlueStoneOre2Block;
@@ -40,8 +41,8 @@ import net.mcreator.retrostuffs.RetroStuffsMod;
 public class RetroStuffsModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, RetroStuffsMod.MODID);
 	public static final RegistryObject<Block> BLUE_STONE_ORE = REGISTRY.register("blue_stone_ore", () -> new BlueStoneOreBlock());
-	public static final RegistryObject<Block> BLUE_STONE_ORE_2 = REGISTRY.register("blue_stone_ore_2", () -> new BlueStoneOre2Block());
 	public static final RegistryObject<Block> BLUE_STONE_BLOCK = REGISTRY.register("blue_stone_block", () -> new BlueStoneBlockBlock());
+	public static final RegistryObject<Block> BLUE_STONE_ORE_2 = REGISTRY.register("blue_stone_ore_2", () -> new BlueStoneOre2Block());
 	public static final RegistryObject<Block> BLUE_STONE_PISTON_ATTRACTIVE = REGISTRY.register("blue_stone_piston_attractive", () -> new BlueStonePistonAttractiveBlock());
 	public static final RegistryObject<Block> WEATHER_SENSOR = REGISTRY.register("weather_sensor", () -> new WeatherSensorBlock());
 	public static final RegistryObject<Block> WEATHER_SENSOR_ACTIVATED = REGISTRY.register("weather_sensor_activated", () -> new WeatherSensorActivatedBlock());
@@ -64,4 +65,7 @@ public class RetroStuffsModBlocks {
 	public static final RegistryObject<Block> SIGNAL_13 = REGISTRY.register("signal_13", () -> new Signal13Block());
 	public static final RegistryObject<Block> SIGNAL_14 = REGISTRY.register("signal_14", () -> new Signal14Block());
 	public static final RegistryObject<Block> SIGNAL_15 = REGISTRY.register("signal_15", () -> new Signal15Block());
+	public static final RegistryObject<Block> PLUSH = REGISTRY.register("plush", () -> new PlushBlock());
+	// Start of user code block custom blocks
+	// End of user code block custom blocks
 }

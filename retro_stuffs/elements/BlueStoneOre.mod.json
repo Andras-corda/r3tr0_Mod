@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 60,
   "_type": "block",
   "definition": {
     "texture": "bluestone_ore",
@@ -34,7 +34,9 @@
       }
     ],
     "name": "Bluestone Ore",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "hardness": 0.30000000000000004,
     "resistance": 0.7924465962305567,
     "hasGravity": false,
@@ -117,10 +119,12 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [
-      "Surface"
+    "generateFeature": true,
+    "restrictionBiomes": [
+      {
+        "value": "#is_overworld"
+      }
     ],
-    "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "Blocks.STONE#0"

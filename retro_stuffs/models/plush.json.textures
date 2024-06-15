@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "2": "r3tr0.texture"
+      },
+      "name": "default"
+    }
+  }
+}

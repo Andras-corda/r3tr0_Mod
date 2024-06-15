@@ -1,8 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": {
-    "type": "forge:any"
-  },
+  "biomes": "#is_overworld",
   "features": "retro_stuffs:blue_stone_ore",
   "step": "underground_ores"
 }

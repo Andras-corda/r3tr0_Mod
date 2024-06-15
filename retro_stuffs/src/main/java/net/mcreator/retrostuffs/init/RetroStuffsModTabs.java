@@ -31,19 +31,17 @@ public class RetroStuffsModTabs {
 				tabData.accept(RetroStuffsModBlocks.REMOTE_BLOCK_OFF.get().asItem());
 				tabData.accept(RetroStuffsModBlocks.SIGNAL_BLOCK.get().asItem());
 				tabData.accept(RetroStuffsModItems.REMOTE_TOOL.get());
+				tabData.accept(RetroStuffsModBlocks.PLUSH.get().asItem());
 			})
 
 					.build());
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
-
 		if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
 			tabData.accept(RetroStuffsModBlocks.WEATHER_SENSOR.get().asItem());
 			tabData.accept(RetroStuffsModBlocks.WEATHER_SENSOR_ACTIVATED.get().asItem());
-		}
-
-		if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
+		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(RetroStuffsModItems.OBSIDIAN_APPLE.get());
 			tabData.accept(RetroStuffsModItems.OBSIDIAN_APPLE_ENCHANTED.get());
 		}

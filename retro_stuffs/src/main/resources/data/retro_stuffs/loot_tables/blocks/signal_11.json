@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "retro_stuffs:blocks/signal_11",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "retro_stuffs:signal_block"
+        }
+      ]
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 60,
   "_type": "block",
   "definition": {
     "texture": "greendetector_on",
@@ -34,9 +34,11 @@
       }
     ],
     "name": "Signal Block",
-    "specialInfo": [
-      "signal 0"
-    ],
+    "specialInformation": {
+      "fixedValue": [
+        "signal 0"
+      ]
+    },
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
@@ -122,7 +124,7 @@
     "onTickUpdate": {
       "name": "SignalBlockUpdateTick"
     },
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [],
     "generationShape": "UNIFORM",

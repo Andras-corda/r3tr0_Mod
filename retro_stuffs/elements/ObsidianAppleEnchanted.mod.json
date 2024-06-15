@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 60,
   "_type": "item",
   "definition": {
     "renderType": 0,
@@ -26,14 +26,20 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [],
-    "hasGlow": true,
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": true
+    },
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onStoppedUsing": {
       "name": "ObsidianAppleEnchantedQuandLeJoueurACesseDutiliser"
     },
+    "enableRanged": false,
+    "shootConstantly": false,
     "isFood": true,
     "nutritionalValue": 4,
     "saturation": 0.7,

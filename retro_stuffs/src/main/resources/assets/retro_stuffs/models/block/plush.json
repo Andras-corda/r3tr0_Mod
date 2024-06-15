@@ -1,0 +1,9 @@
+{
+  "parent": "retro_stuffs:custom/plush",
+  "textures": {
+    "all": "retro_stuffs:block/r3tr0.texture",
+    "particle": "retro_stuffs:block/r3tr0.texture",
+    "2": "retro_stuffs:block/r3tr0.texture"
+  },
+  "render_type": "cutout"
+}

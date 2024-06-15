@@ -1,7 +1,6 @@
 
 package net.mcreator.retrostuffs.block;
 
-import net.minecraft.world.level.storage.loot.LootParams;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -21,11 +20,9 @@ import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.retrostuffs.procedures.SignalBlockUpdateTickProcedure;
-import net.mcreator.retrostuffs.init.RetroStuffsModBlocks;
 import net.mcreator.retrostuffs.block.entity.Signal15BlockEntity;
 
 import java.util.List;
-import java.util.Collections;
 
 public class Signal15Block extends Block implements EntityBlock {
 	public Signal15Block() {
@@ -33,8 +30,8 @@ public class Signal15Block extends Block implements EntityBlock {
 	}
 
 	@Override
-	public void appendHoverText(ItemStack itemstack, BlockGetter world, List<Component> list, TooltipFlag flag) {
-		super.appendHoverText(itemstack, world, list, flag);
+	public void appendHoverText(ItemStack itemstack, BlockGetter level, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, level, list, flag);
 		list.add(Component.literal("signal 15"));
 	}
 
@@ -56,14 +53,6 @@ public class Signal15Block extends Block implements EntityBlock {
 	@Override
 	public boolean canConnectRedstone(BlockState state, BlockGetter world, BlockPos pos, Direction side) {
 		return true;
-	}
-
-	@Override
-	public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
-		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
-		if (!dropsOriginal.isEmpty())
-			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(RetroStuffsModBlocks.SIGNAL_BLOCK.get()));
 	}
 
 	@Override

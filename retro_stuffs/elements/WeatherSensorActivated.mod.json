@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 60,
   "_type": "block",
   "definition": {
     "texture": "weather_detector_bottom",
@@ -34,7 +34,9 @@
       }
     ],
     "name": "Weather Sensor",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
@@ -120,7 +122,7 @@
     "onTickUpdate": {
       "name": "WeatherSensorActivatedUpdateTick"
     },
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [],
     "generationShape": "UNIFORM",
